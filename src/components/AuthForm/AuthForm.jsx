@@ -19,7 +19,7 @@ const AuthForm = () => {
   const dispatch = useDispatch();
 
   const handleChangeInput = e => {
-    const input = e.taget;
+    const input = e.target;
 
     input.name === 'name' && setName(input.value);
     input.name === 'email' && setEmail(input.value);
