@@ -1,5 +1,5 @@
-import ContactForm from 'components/ContactForm/ContactForm';
-import Filter from 'components/Filter/Filter';
+import ContactForm from '../ContactForm/ContactForm';
+import Filter from '../Filter/Filter';
 
 const BlockForContacts = () => {
   return (

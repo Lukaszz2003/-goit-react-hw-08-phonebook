@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getContacts, removeContacts } from 'redux/contacts/contactsOperations';
 import s from './ContactList.module.css';
 import { contactsAfterFilter } from 'redux/contacts/contactsSelector';
+
 import DeleteIcon from '@mui/icons-material/Delete';
 import IconButton from '@mui/material/IconButton';
 
@@ -13,7 +14,8 @@ const ContactList = () => {
 
   useEffect(() => {
     dispatch(getContacts());
-  }, [dispatch]);
+    // eslint-disable-next-line
+  }, []);
 
   return (
     <>
