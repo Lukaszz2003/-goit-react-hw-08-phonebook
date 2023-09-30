@@ -8,13 +8,13 @@
   padding: 5px 10px;
   margin-bottom: 15px;
   width: 180px;
-  background-color: chartreuse;
+  background-color: silver;
 }
 .btn {
-  background-color: chocolate;
+  background-color: slategrey;
   border: none;
   padding: 15px 20px;
-  color: greenyellow;
+  color: cyan;
   text-transform: uppercase;
   border-radius: 7px;
   font-weight: 700;
@@ -22,5 +22,6 @@
 }
 .btn:hover,
 .btn:focus {
-  background-color: cornflowerblue;
+  background-color: cyan;
+  color: slategrey;
 }
